@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CurrencyApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ea529c5b9334cc03024d3147c4250d8c12027b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("CurrencyApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CurrencyApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,7 +2,7 @@
 {
     public class Currency
     {
-
+        const int CURRENCY_CODE_LETTERS = 3;
         private Currency(Guid id, string code, string fullname, string sign)
         {
             Id = id;
@@ -12,13 +12,13 @@
 
         }
 
-        public Guid Id { get; set; }
+        public Guid Id { get;  }
 
-        public string Code { get; set; }
+        public string Code { get;  }
 
-        public string FullName { get; set; }
+        public string FullName { get;  }
 
-        public string Sign { get; set; }
+        public string Sign { get;  }
 
 
 
@@ -31,6 +31,11 @@
             if (string.IsNullOrEmpty(fullname))
             {
                 error = "The name of the currency should not be empty";
+            }
+
+            if(code.Length != CURRENCY_CODE_LETTERS)
+            {
+                error = "The code of the currency should contain only 3 symbols";
             }
 
             return (newCurrency, error);

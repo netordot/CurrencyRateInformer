@@ -4,14 +4,166 @@
     "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj": {}
   },
   "projects": {
-    "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj": {
+    "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\CurrecyApi.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj",
-        "projectName": "CurrencyApi",
-        "projectPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj",
+        "projectUniqueName": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\CurrecyApi.Application.csproj",
+        "projectName": "CurrecyApi.Application",
+        "projectPath": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\CurrecyApi.Application.csproj",
         "packagesPath": "C:\\Users\\dspar\\.nuget\\packages\\",
-        "outputPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\obj\\",
+        "outputPath": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dspar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj": {
+                "projectPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\CurrencyApi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\CurrencyApi.Data.csproj",
+        "projectName": "CurrencyApi.Data",
+        "projectPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\CurrencyApi.Data.csproj",
+        "packagesPath": "C:\\Users\\dspar\\.nuget\\packages\\",
+        "outputPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dspar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj": {
+                "projectPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj",
+        "projectName": "CurrencyApi.Domain",
+        "projectPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\dspar\\.nuget\\packages\\",
+        "outputPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dspar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +198,89 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj",
+        "projectName": "CurrencyApi",
+        "projectPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj",
+        "packagesPath": "C:\\Users\\dspar\\.nuget\\packages\\",
+        "outputPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dspar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\CurrecyApi.Application.csproj": {
+                "projectPath": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\CurrecyApi.Application.csproj"
+              },
+              "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\CurrencyApi.Data.csproj": {
+                "projectPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\CurrencyApi.Data.csproj"
+              },
+              "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj": {
+                "projectPath": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\CurrencyApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.21.0, )"

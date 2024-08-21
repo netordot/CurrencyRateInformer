@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,29 +10,30 @@ namespace CurrencyApi.Domain.Models
     public class ExchangeRate
     {
 
-        public ExchangeRate(int id, int baseCurrencyId, int targetCurrencyId, decimal rate)
+        public ExchangeRate(Guid id, Currency baseCurrency, Currency targetCurrency, decimal rate)
         {
             Id = id;
-            BaseCurrencyId = baseCurrencyId;
-            TargetCurrencyId = targetCurrencyId;
+            BaseCurrency = baseCurrency;
+            TargetCurrency = targetCurrency;
             Rate = rate;
             
         }
-        public int Id { get; set; }
+        public Guid Id { get;  }
 
-        public int BaseCurrencyId { get; set; }
+        [Required]
+        public Currency BaseCurrency { get; }
+        [Required]
+        public Currency TargetCurrency { get; }
 
-        public int TargetCurrencyId { get; set; }
+        public decimal Rate { get;  }
 
-        public decimal Rate { get; set; }
-
-        public static(ExchangeRate ExRate, string Error) Create (int id, int baseCurrencyId, int targetCurrencyId, decimal rate)
+        public static(ExchangeRate ExRate, string Error) Create (Guid id, Currency baseCurrency, Currency targetCurrency, decimal rate)
         {
-            var ExRate = new ExchangeRate(id, baseCurrencyId, targetCurrencyId, rate);
+            var ExRate = new ExchangeRate(id, baseCurrency, targetCurrency, rate);
 
             var error = string.Empty;
 
-            if(baseCurrencyId == targetCurrencyId)
+            if(baseCurrency == targetCurrency)
             {
                 error = "The ExchangeRate may not be created due to the same base and target currencies";
             }

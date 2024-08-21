@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApi", "CurrencyApi\CurrencyApi.csproj", "{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyApi", "CurrencyApi\CurrencyApi.csproj", "{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApi.Domain", "CurrencyApi.Domain\CurrencyApi.Domain.csproj", "{DED68410-FA80-4132-B458-CF36B7412226}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyApi.Domain", "CurrencyApi.Domain\CurrencyApi.Domain.csproj", "{DED68410-FA80-4132-B458-CF36B7412226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApi.Data", "CurrencyApi.Data\CurrencyApi.Data.csproj", "{601CA1F0-32B0-438D-9E61-E1908E169C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrecyApi.Application", "CurrecyApi.Application\CurrecyApi.Application.csproj", "{A2AF0454-371F-4313-968D-D15EED446D3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{DED68410-FA80-4132-B458-CF36B7412226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED68410-FA80-4132-B458-CF36B7412226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED68410-FA80-4132-B458-CF36B7412226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601CA1F0-32B0-438D-9E61-E1908E169C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601CA1F0-32B0-438D-9E61-E1908E169C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601CA1F0-32B0-438D-9E61-E1908E169C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601CA1F0-32B0-438D-9E61-E1908E169C57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AF0454-371F-4313-968D-D15EED446D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AF0454-371F-4313-968D-D15EED446D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AF0454-371F-4313-968D-D15EED446D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AF0454-371F-4313-968D-D15EED446D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

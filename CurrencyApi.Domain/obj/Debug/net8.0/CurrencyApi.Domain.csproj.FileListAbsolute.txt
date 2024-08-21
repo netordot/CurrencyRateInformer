@@ -1,0 +1,13 @@
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\bin\Debug\net8.0\CurrencyApi.Domain.deps.json
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\bin\Debug\net8.0\CurrencyApi.Domain.dll
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\bin\Debug\net8.0\CurrencyApi.Domain.pdb
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\CurrencyApi.Domain.csproj.AssemblyReference.cache
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\CurrencyApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\CurrencyApi.Domain.AssemblyInfoInputs.cache
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\CurrencyApi.Domain.AssemblyInfo.cs
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\CurrencyApi.Domain.csproj.CoreCompileInputs.cache
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\CurrencyApi.Domain.sourcelink.json
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\CurrencyApi.Domain.dll
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\refint\CurrencyApi.Domain.dll
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\CurrencyApi.Domain.pdb
+D:\dev Files\CurrencyApi\CurrencyApi.Domain\obj\Debug\net8.0\ref\CurrencyApi.Domain.dll
