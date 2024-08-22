@@ -19,14 +19,14 @@ namespace CurrencyApi.Controllers
         [HttpGet]
         public async Task<ActionResult<List<CurrencyResponse>>> GetAll()
         {
-            var currencies =  await _currencyService.GetAllCurrencies();
+            var currencies = await _currencyService.GetAllCurrencies();
 
             var result = currencies.Select(x => new CurrencyResponse(x.Id, x.Code, x.FullName, x.Sign));
 
             return Ok(result);
-            
-        }
 
+        }
+        [HttpPost]
         public async Task<ActionResult<Guid>> CreateCurrency([FromBody]CurrencyRequest request)
         {
             var (currency, error) = Currency.Create
@@ -37,14 +37,37 @@ namespace CurrencyApi.Controllers
                 request.sign
                 );
 
-            //TODO: не хватает валидации, прописанной в Domain слое
 
-           var currencyId = _currencyService.CreateCurrency(currency);
+           var currencyId = await _currencyService.CreateCurrency(currency);
 
            return Ok(currencyId);  
 
             
         }
+        [HttpPut("{id:Guid}")]
+        public async Task<ActionResult<Guid>> UpdateCurrency([FromBody] CurrencyRequest request, Guid id)
+        {
+            var updated = await _currencyService.Update(id, request.code, request.fullName, request.sign);
 
+            return Ok(id);
+        }
+
+
+        [HttpDelete("{id:Guid}")]
+        public async Task<ActionResult<Guid>> DeleteCurrency(Guid id)
+        {
+           await _currencyService.DeleteCurrency(id);
+
+            return Ok(id);
+        }
+        [HttpGet("{code:alpha}")]
+        public async Task<ActionResult<List<CurrencyResponse>>> GetCurrencyByCode(string code)
+        {
+            var currency =  await _currencyService.GetByCode(code);
+
+            var result = currency.Select(x => new CurrencyResponse(x.Id, x.Code, x.FullName, x.Sign));
+
+            return Ok(result);
+        }
     }
 }

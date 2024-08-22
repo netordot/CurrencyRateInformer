@@ -76,20 +76,23 @@ namespace CurrencyApi.Data.Repositories
         }
 
 
-        //public async Task<CurrencyEntity> GetCurrencyByCode(string code)
-        //{
-        //    //var result = await _context.Currencies
-        //    //    .FirstOrDefaultAsync(x => x.Code == code);
+       // На данном этапе метод реализзован криво, в дальнейшем будет рефакторинг
 
-        //    //if (result == null)
-        //    //{
-        //    //    throw new FileNotFoundException();
-        //    //}
+       public async Task<List<Currency>> GetCurrencyByCode(string code)
+        {
+            
+                var currencyEntities = await _context.Currencies.Where(x => x.Code == code).ToListAsync();
 
-        //    //return result;
+                var result = currencyEntities
+                    .Select(x => Currency.Create(x.Id, x.Code, x.FullName, x.Sign).currency)
+                    .ToList();
 
-        //    throw new InvalidOperationException();
-        //}
+                return result;
+            
+
+
+
+        }
 
     }
 }

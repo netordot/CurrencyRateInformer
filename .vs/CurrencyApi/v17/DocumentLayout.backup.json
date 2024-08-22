@@ -3,81 +3,24 @@
   "WorkspaceRootPath": "D:\\dev Files\\CurrencyApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Migrations\\20240821184037_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CurrencyApi.Data\\Migrations\\20240821184037_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\entities\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\entities\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\entities\\currencyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\entities\\currencyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\configuraions\\exchangerateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\configuraions\\exchangerateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\configuraions\\currencyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\configuraions\\currencyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\currencyapi.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\currencyapi.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\repositories\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\repositories\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\models\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\models\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\currencyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\currencyapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dev Files\\BookAPI\\BookAPI.DataAccess\\Entities\\BookEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dev Files\\BookAPI\\BookAPI\\Controllers\\BooksController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\controllers\\contracts\\currencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\controllers\\contracts\\currencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|d:\\dev files\\currencyapi\\currecyapi.application\\sercvices\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|solutionrelative:currecyapi.application\\sercvices\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\abstractions\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\abstractions\\icurrencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\abstractions\\icurrencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\abstractions\\icurrencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\dev Files\\BookAPI\\BookAPI.DataAccess\\Repositories\\BookRespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|d:\\dev files\\currencyapi\\currecyapi.application\\sercvices\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|solutionrelative:currecyapi.application\\sercvices\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\repositories\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\repositories\\currencyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -87,266 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240821184037_initial.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Migrations\\20240821184037_initial.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\Migrations\\20240821184037_initial.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Migrations\\20240821184037_initial.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\Migrations\\20240821184037_initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T18:40:38.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ExchangeRateEntity.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIAwwA8AAAAmAAAAAAAAAA==",
+              "Title": "ICurrencyService.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
+              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:10:32.488Z",
+              "WhenOpened": "2024-08-22T10:20:25.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CurrencyEntity.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "ICurrencyRepository.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
+              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:10:30.167Z",
+              "WhenOpened": "2024-08-22T10:16:38.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "CurrencyRepository.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Repositories\\CurrencyRepository.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Data\\Repositories\\CurrencyRepository.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Repositories\\CurrencyRepository.cs",
+              "RelativeToolTip": "CurrencyApi.Data\\Repositories\\CurrencyRepository.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T09:57:12.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CurrencyController.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\CurrencyController.cs",
               "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\CurrencyController.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\CurrencyController.cs",
-              "RelativeToolTip": "CurrencyApi\\Controllers\\CurrencyController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAqwCsAAAAjAAAAAAAAAA==",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\CurrencyController.cs*",
+              "RelativeToolTip": "CurrencyApi\\Controllers\\CurrencyController.cs*",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T06:25:58.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CurrencyConfiguration.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Configuraions\\CurrencyConfiguration.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\Configuraions\\CurrencyConfiguration.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Configuraions\\CurrencyConfiguration.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\Configuraions\\CurrencyConfiguration.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:43:40.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ExchangeRateConfiguration.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Configuraions\\ExchangeRateConfiguration.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\Configuraions\\ExchangeRateConfiguration.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Configuraions\\ExchangeRateConfiguration.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\Configuraions\\ExchangeRateConfiguration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:45:09.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CurrencyApi.Data.csproj",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\CurrencyApi.Data.csproj",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\CurrencyApi.Data.csproj",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\CurrencyApi.Data.csproj",
-              "RelativeToolTip": "CurrencyApi.Data\\CurrencyApi.Data.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-21T06:48:38.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Currency.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\Currency.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Models\\Currency.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\Currency.cs",
-              "RelativeToolTip": "CurrencyApi.Domain\\Models\\Currency.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:56:20.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDataContext.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\ApplicationDataContext.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\ApplicationDataContext.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\ApplicationDataContext.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\ApplicationDataContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T06:58:21.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CurrencyRepository.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Repositories\\CurrencyRepository.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\Repositories\\CurrencyRepository.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Repositories\\CurrencyRepository.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\Repositories\\CurrencyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:51:10.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ExchangeRate.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\ExchangeRate.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Models\\ExchangeRate.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\ExchangeRate.cs",
-              "RelativeToolTip": "CurrencyApi.Domain\\Models\\ExchangeRate.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwA4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:26:09.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "BookEntity.cs",
-              "DocumentMoniker": "D:\\dev Files\\BookAPI\\BookAPI.DataAccess\\Entities\\BookEntity.cs",
-              "RelativeDocumentMoniker": "..\\BookAPI\\BookAPI.DataAccess\\Entities\\BookEntity.cs",
-              "ToolTip": "D:\\dev Files\\BookAPI\\BookAPI.DataAccess\\Entities\\BookEntity.cs",
-              "RelativeToolTip": "..\\BookAPI\\BookAPI.DataAccess\\Entities\\BookEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T15:10:48.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CurrencyApi.csproj",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj",
-              "RelativeDocumentMoniker": "CurrencyApi\\CurrencyApi.csproj",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\CurrencyApi.csproj",
-              "RelativeToolTip": "CurrencyApi\\CurrencyApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-21T15:08:20.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "CurrencyApi\\appsettings.Development.json",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\appsettings.Development.json",
-              "RelativeToolTip": "CurrencyApi\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-21T06:47:55.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "D:\\dev Files\\BookAPI\\BookAPI\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "..\\BookAPI\\BookAPI\\Controllers\\BooksController.cs",
-              "ToolTip": "D:\\dev Files\\BookAPI\\BookAPI\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "..\\BookAPI\\BookAPI\\Controllers\\BooksController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T06:40:36.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Program.cs",
-              "RelativeDocumentMoniker": "CurrencyApi\\Program.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Program.cs",
-              "RelativeToolTip": "CurrencyApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:48:34.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CurrencyResponse.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\Contracts\\CurrencyResponse.cs",
-              "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\Contracts\\CurrencyResponse.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\Contracts\\CurrencyResponse.cs",
-              "RelativeToolTip": "CurrencyApi\\Controllers\\Contracts\\CurrencyResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T06:30:02.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "CurrencyService.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\Sercvices\\CurrencyService.cs",
               "RelativeDocumentMoniker": "CurrecyApi.Application\\Sercvices\\CurrencyService.cs",
               "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\Sercvices\\CurrencyService.cs",
               "RelativeToolTip": "CurrecyApi.Application\\Sercvices\\CurrencyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-21T05:32:27.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ICurrencyRepository.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
-              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T05:38:14.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BookRespository.cs",
-              "DocumentMoniker": "D:\\dev Files\\BookAPI\\BookAPI.DataAccess\\Repositories\\BookRespository.cs",
-              "RelativeDocumentMoniker": "..\\BookAPI\\BookAPI.DataAccess\\Repositories\\BookRespository.cs",
-              "ToolTip": "D:\\dev Files\\BookAPI\\BookAPI.DataAccess\\Repositories\\BookRespository.cs",
-              "RelativeToolTip": "..\\BookAPI\\BookAPI.DataAccess\\Repositories\\BookRespository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:49:37.31Z",
               "EditorCaption": ""
             }
           ]

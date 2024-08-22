@@ -36,5 +36,10 @@ namespace CurrecyApi.Application.Sercvices
         {
             return await _currencyRepository.Update(id, code, fullname, sign);
         }
+
+        public async Task<List<Currency>> GetByCode(string code)
+        {
+            return await _currencyRepository.GetCurrencyByCode(code);
+        }
     }
 }
