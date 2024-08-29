@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyApi", "CurrencyApi\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyApi.Domain", "CurrencyApi.Domain\CurrencyApi.Domain.csproj", "{DED68410-FA80-4132-B458-CF36B7412226}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApi.Data", "CurrencyApi.Data\CurrencyApi.Data.csproj", "{601CA1F0-32B0-438D-9E61-E1908E169C57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyApi.Data", "CurrencyApi.Data\CurrencyApi.Data.csproj", "{601CA1F0-32B0-438D-9E61-E1908E169C57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrecyApi.Application", "CurrecyApi.Application\CurrecyApi.Application.csproj", "{A2AF0454-371F-4313-968D-D15EED446D3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrecyApi.Application", "CurrecyApi.Application\CurrecyApi.Application.csproj", "{A2AF0454-371F-4313-968D-D15EED446D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyApi.Tests", "CurrencyApi.Tests\CurrencyApi.Tests.csproj", "{979BAB3F-0FE9-4D5A-8C1F-B512A98234A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A2AF0454-371F-4313-968D-D15EED446D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2AF0454-371F-4313-968D-D15EED446D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2AF0454-371F-4313-968D-D15EED446D3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979BAB3F-0FE9-4D5A-8C1F-B512A98234A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979BAB3F-0FE9-4D5A-8C1F-B512A98234A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979BAB3F-0FE9-4D5A-8C1F-B512A98234A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979BAB3F-0FE9-4D5A-8C1F-B512A98234A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
