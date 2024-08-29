@@ -2,6 +2,7 @@
 using CurrencyApi.Domain.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -42,6 +43,9 @@ namespace CurrecyApi.Application.Sercvices
             return await _currencyRepository.GetCurrencyByCode(code);
         }
 
-       
+       public async Task<Guid> GetIdByCodeAsync(string Code)
+        {
+            return await _currencyRepository.GetCurrencyIdByCode(Code);
+        }
     }
 }

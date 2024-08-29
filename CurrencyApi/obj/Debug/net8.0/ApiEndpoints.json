@@ -47,21 +47,21 @@
   },
   {
     "ContainingType": "CurrencyApi.Controllers.CurrencyController",
-    "Method": "GetCurrencyByCode",
-    "RelativePath": "api/Currency/{code}",
+    "Method": "GetCurrencyIdByCodeAsync",
+    "RelativePath": "api/Currency/{currencyCode}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "code",
+        "Name": "currencyCode",
         "Type": "System.String",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[CurrencyApi.Controllers.Contracts.CurrencyResponse, CurrencyApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Guid",
         "MediaTypes": [
           "text/plain",
           "application/json",

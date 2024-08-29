@@ -12,5 +12,7 @@ namespace CurrencyApi.Data.Repositories
 
         Task<Guid> Update(Guid id, string code, string fullname, string sign);
 
+        Task<Guid> GetCurrencyIdByCode(string code);
+
     }
 }

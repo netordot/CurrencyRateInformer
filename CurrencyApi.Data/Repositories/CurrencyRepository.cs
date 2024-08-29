@@ -94,6 +94,13 @@ namespace CurrencyApi.Data.Repositories
 
         }
 
+        public async Task<Guid> GetCurrencyIdByCode(string code)
+        {
+            var currency = await _context.Currencies.FirstOrDefaultAsync(x => x.Code == code);
+
+            return currency.Id;
+        }
+
         
              
     }
