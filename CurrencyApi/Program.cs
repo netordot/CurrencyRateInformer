@@ -15,11 +15,16 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDataContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString(nameof(ApplicationDataContext)));
+    options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+
 }
 );
 
 builder.Services.AddScoped<ICurrencyRepository, CurrencyRepository>();
 builder.Services.AddScoped<ICurrencyService, CurrencyService>();
+
+builder.Services.AddScoped<IExchangeRateService, ExchangeRateService>();
+builder.Services.AddScoped<IExchangeRateRepository, ExchangeRateRepository>();
 
 
 

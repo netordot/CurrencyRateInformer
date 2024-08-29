@@ -18,6 +18,9 @@ namespace CurrencyApi.Domain.Configuraions
             builder.Property(e => e.BaseCurrency).IsRequired();
             builder.Property(e=>e.TargetCurrency).IsRequired();
 
+            
+           
+
             builder.Property(e => e.Rate).IsRequired();
 
                

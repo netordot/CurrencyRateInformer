@@ -41,5 +41,7 @@ namespace CurrecyApi.Application.Sercvices
         {
             return await _currencyRepository.GetCurrencyByCode(code);
         }
+
+       
     }
 }

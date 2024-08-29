@@ -127,5 +127,59 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "CurrencyApi.Controllers.ExchangeRateController",
+    "Method": "Create",
+    "RelativePath": "api/ExchangeRate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CurrencyApi.Controllers.Contracts.ExchangeRateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurrencyApi.Controllers.ExchangeRateController",
+    "Method": "Edit",
+    "RelativePath": "api/ExchangeRate/{baseCurrencyCode}, {targetCurrencyCode}, {rate}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "baseCurrencyCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetCurrencyCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "rate",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

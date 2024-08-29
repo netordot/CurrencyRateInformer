@@ -51,36 +51,36 @@ namespace CurrencyApi.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid>("BaseCurrencyId")
-                        .HasColumnType("uuid");
-
                     b.Property<decimal>("Rate")
                         .HasColumnType("numeric");
 
                     b.Property<Guid>("TargetCurrencyId")
                         .HasColumnType("uuid");
 
+                    b.Property<Guid>("baseCurrencyId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("BaseCurrencyId");
-
                     b.HasIndex("TargetCurrencyId");
+
+                    b.HasIndex("baseCurrencyId");
 
                     b.ToTable("ExchangeRates");
                 });
 
             modelBuilder.Entity("CurrencyApi.Data.Entities.ExchangeRateEntity", b =>
                 {
-                    b.HasOne("CurrencyApi.Data.Entities.CurrencyEntity", "BaseCurrency")
-                        .WithMany()
-                        .HasForeignKey("BaseCurrencyId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("CurrencyApi.Data.Entities.CurrencyEntity", "TargetCurrency")
                         .WithMany()
                         .HasForeignKey("TargetCurrencyId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("CurrencyApi.Data.Entities.CurrencyEntity", "BaseCurrency")
+                        .WithMany()
+                        .HasForeignKey("baseCurrencyId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("BaseCurrency");

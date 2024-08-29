@@ -76,7 +76,7 @@ namespace CurrencyApi.Data.Repositories
         }
 
 
-       // На данном этапе метод реализзован криво, в дальнейшем будет рефакторинг
+       // На данном этапе метод реализован криво, в дальнейшем будет рефакторинг
 
        public async Task<List<Currency>> GetCurrencyByCode(string code)
         {
@@ -94,5 +94,7 @@ namespace CurrencyApi.Data.Repositories
 
         }
 
+        
+             
     }
 }
