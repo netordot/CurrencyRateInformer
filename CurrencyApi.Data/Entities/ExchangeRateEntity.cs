@@ -26,7 +26,7 @@ namespace CurrencyApi.Data.Entities
 
         public decimal Rate { get; set; }
 
-
+        
 
 
     }

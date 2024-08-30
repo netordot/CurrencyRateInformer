@@ -61,11 +61,11 @@ namespace CurrencyApi.Controllers
             return Ok(id);
         }
         [HttpGet("{code:alpha}")]
-        public async Task<ActionResult<List<CurrencyResponse>>> GetCurrencyByCode(string code)
+        public async Task<ActionResult<CurrencyResponse>> GetCurrencyByCode(string code)
         {
             var currency = await _currencyService.GetByCode(code);
 
-            var result = currency.Select(x => new CurrencyResponse(x.Id, x.Code, x.FullName, x.Sign));
+            var result = new CurrencyResponse(currency.Id, currency.Code, currency.FullName, currency.Sign);
 
             return Ok(result);
         }

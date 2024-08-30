@@ -38,7 +38,7 @@ namespace CurrecyApi.Application.Sercvices
             return await _currencyRepository.Update(id, code, fullname, sign);
         }
 
-        public async Task<List<Currency>> GetByCode(string code)
+        public async Task<Currency> GetByCode(string code)
         {
             return await _currencyRepository.GetCurrencyByCode(code);
         }
@@ -47,5 +47,11 @@ namespace CurrecyApi.Application.Sercvices
         {
             return await _currencyRepository.GetCurrencyIdByCode(Code);
         }
+
+        public async Task<string> GetCurrencyCodeById(Guid Id)
+        {
+            return await _currencyRepository.GetCodeById(Id);
+        }
+
     }
 }

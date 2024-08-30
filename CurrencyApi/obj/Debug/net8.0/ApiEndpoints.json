@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[CurrencyApi.Controllers.Contracts.CurrencyResponse, CurrencyApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "CurrencyApi.Controllers.Contracts.CurrencyResponse",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -146,6 +146,57 @@
       {
         "Type": "System.Void",
         "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurrencyApi.Controllers.ExchangeRateController",
+    "Method": "GetAllExchangeRates",
+    "RelativePath": "api/ExchangeRate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CurrencyApi.Controllers.Contracts.ExchangeRateResponse, CurrencyApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurrencyApi.Controllers.ExchangeRateController",
+    "Method": "GetExchangeRateByCode",
+    "RelativePath": "api/ExchangeRate/{baseCurrencyCode}, {targetCurrencyCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "baseCurrencyCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetCurrencyCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CurrencyApi.Controllers.Contracts.ExchangeRateResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
         "StatusCode": 200
       }
     ]

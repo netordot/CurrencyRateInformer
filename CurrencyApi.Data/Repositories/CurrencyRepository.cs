@@ -78,17 +78,16 @@ namespace CurrencyApi.Data.Repositories
 
        // На данном этапе метод реализован криво, в дальнейшем будет рефакторинг
 
-       public async Task<List<Currency>> GetCurrencyByCode(string code)
+       public async Task<Currency> GetCurrencyByCode(string Code)
         {
-            
-                var currencyEntities = await _context.Currencies.Where(x => x.Code == code).ToListAsync();
 
-                var result = currencyEntities
-                    .Select(x => Currency.Create(x.Id, x.Code, x.FullName, x.Sign).currency)
-                    .ToList();
-
-                return result;
             
+            var currencyDb = await _context.Currencies.FirstOrDefaultAsync(x => x.Code == Code);
+
+            var currencyToReturn = Currency.Create(currencyDb.Id, currencyDb.Code, currencyDb.FullName, currencyDb.Sign).currency;
+
+            return currencyToReturn;
+
 
 
 
@@ -101,7 +100,21 @@ namespace CurrencyApi.Data.Repositories
             return currency.Id;
         }
 
+        public async Task<Currency> GetCurrencyAsync(string Code)
+        {
+            var currencyDb = await _context.Currencies.FirstOrDefaultAsync(x => x.Code == Code);
+
+            var currencyToReturn = Currency.Create(currencyDb.Id, currencyDb.Code, currencyDb.FullName, currencyDb.Sign).currency;
+
+            return currencyToReturn;
+        }
         
+        public async Task<string> GetCodeById(Guid Id)
+        {
+            var currencyInDb = await _context.Currencies.FirstOrDefaultAsync(x => x.Id == Id);
+
+            return currencyInDb.Code;
+        }
              
     }
 }
