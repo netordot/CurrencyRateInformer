@@ -97,6 +97,11 @@ namespace CurrencyApi.Data.Repositories
         {
             var currency = await _context.Currencies.FirstOrDefaultAsync(x => x.Code == code);
 
+            if (currency == null)
+            {
+                throw new ArgumentException("Валюта не существует");
+            }
+
             return currency.Id;
         }
 
