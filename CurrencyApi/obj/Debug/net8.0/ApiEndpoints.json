@@ -203,6 +203,42 @@
   },
   {
     "ContainingType": "CurrencyApi.Controllers.ExchangeRateController",
+    "Method": "Exchange",
+    "RelativePath": "api/ExchangeRate/{baseCurrencyCode}, {targetCurrencyCode}, {Amount}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "baseCurrencyCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "targetCurrencyCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "Amount",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CurrencyApi.Controllers.Contracts.ExchangeResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CurrencyApi.Controllers.ExchangeRateController",
     "Method": "Edit",
     "RelativePath": "api/ExchangeRate/{baseCurrencyCode}, {targetCurrencyCode}, {rate}",
     "HttpMethod": "PUT",
