@@ -94,8 +94,7 @@
               "RelativeToolTip": "CurrencyApi\\Controllers\\ExchangeRateController.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAkwEoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:51:38.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T06:51:38.009Z"
             },
             {
               "$type": "Document",
@@ -107,8 +106,7 @@
               "RelativeToolTip": "CurrencyApi.Domain\\Models\\ExchangeRate.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:19:57.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T15:19:57.46Z"
             },
             {
               "$type": "Document",
@@ -118,7 +116,7 @@
               "RelativeDocumentMoniker": "CurrencyApi.Data\\Repositories\\ExchangeRateRepository.cs",
               "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Repositories\\ExchangeRateRepository.cs",
               "RelativeToolTip": "CurrencyApi.Data\\Repositories\\ExchangeRateRepository.cs",
-              "ViewState": "AgIAANwAAAAAAAAAAAAiwDIBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwIsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T15:20:29.853Z",
               "EditorCaption": ""
@@ -133,8 +131,7 @@
               "RelativeToolTip": "CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:23:05.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T15:23:05.422Z"
             },
             {
               "$type": "Document",
@@ -146,8 +143,7 @@
               "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABrAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:23:18.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T15:23:18.741Z"
             },
             {
               "$type": "Document",
@@ -159,8 +155,7 @@
               "RelativeToolTip": "CurrencyApi\\Controllers\\Contracts\\ExchangeResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T13:10:29.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T13:10:29.793Z"
             },
             {
               "$type": "Document",
@@ -172,8 +167,7 @@
               "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:22:48.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T15:22:48.794Z"
             },
             {
               "$type": "Document",
@@ -185,8 +179,7 @@
               "RelativeToolTip": "CurrecyApi.Application\\Sercvices\\CurrencyService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:18:13.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T15:18:13.648Z"
             },
             {
               "$type": "Document",
