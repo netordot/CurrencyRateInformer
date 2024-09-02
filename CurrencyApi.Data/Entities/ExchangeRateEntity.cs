@@ -11,7 +11,6 @@ namespace CurrencyApi.Data.Entities
 {
     public class ExchangeRateEntity
     {
-
         public Guid Id { get; set; }
         public  CurrencyEntity BaseCurrency { get; set; }
 
@@ -23,11 +22,6 @@ namespace CurrencyApi.Data.Entities
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public Guid TargetCurrencyId { get; set; }
-
         public decimal Rate { get; set; }
-
-        
-
-
     }
 }

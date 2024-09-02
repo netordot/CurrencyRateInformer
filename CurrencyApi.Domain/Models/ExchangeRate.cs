@@ -29,7 +29,6 @@ namespace CurrencyApi.Domain.Models
 
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public Guid targetCurrencyID { get; }
-
         public decimal Rate { get;  }
 
         public static(ExchangeRate ExRate, string Error) Create (Guid id, Guid baseCurrencyId, Guid targetCurrencyId, decimal rate)
@@ -48,10 +47,7 @@ namespace CurrencyApi.Domain.Models
                 error = "The rate may not be less or equal than 0";
             }
 
-
             return (ExRate,  error);
         }
-
-
     }
 }

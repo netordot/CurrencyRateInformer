@@ -20,8 +20,6 @@
 
         public string Sign { get;  }
 
-
-
         public static (Currency currency, string Error) Create(Guid id, string code, string fullname, string sign)
         {
             var newCurrency = new Currency(id, code, fullname, sign);

@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\dev Files\\CurrencyApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\entities\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\entities\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\entities\\currencyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\entities\\currencyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\models\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\models\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\abstractions\\iexchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\abstractions\\iexchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\abstractions\\iexchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\abstractions\\iexchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|d:\\dev files\\currencyapi\\currecyapi.application\\sercvices\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|solutionrelative:currecyapi.application\\sercvices\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|d:\\dev files\\currencyapi\\currecyapi.application\\sercvices\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|solutionrelative:currecyapi.application\\sercvices\\currencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,28 +55,8 @@
       "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\repositories\\exchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|d:\\dev files\\currencyapi\\currecyapi.application\\sercvices\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2AF0454-371F-4313-968D-D15EED446D3B}|CurrecyApi.Application\\CurrecyApi.Application.csproj|solutionrelative:currecyapi.application\\sercvices\\exchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\controllers\\contracts\\exchangeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\controllers\\contracts\\exchangeresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\abstractions\\iexchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\abstractions\\iexchangerateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\models\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\models\\exchangerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|d:\\dev files\\currencyapi\\currencyapi.domain\\abstractions\\iexchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DED68410-FA80-4132-B458-CF36B7412226}|CurrencyApi.Domain\\CurrencyApi.Domain.csproj|solutionrelative:currencyapi.domain\\abstractions\\iexchangeraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\controllers\\contracts\\exchangerateresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,14 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\controllers\\contracts\\currencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|solutionrelative:currencyapi\\controllers\\contracts\\currencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\entities\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\entities\\exchangerateentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|d:\\dev files\\currencyapi\\currencyapi.data\\entities\\currencyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{601CA1F0-32B0-438D-9E61-E1908E169C57}|CurrencyApi.Data\\CurrencyApi.Data.csproj|solutionrelative:currencyapi.data\\entities\\currencyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72CC6CF9-BFC0-4E9B-B19A-65D02BBC91B8}|CurrencyApi\\CurrencyApi.csproj|d:\\dev files\\currencyapi\\currencyapi\\controllers\\contracts\\currencyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,15 +78,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\Currency.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Models\\Currency.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\Currency.cs",
+              "RelativeToolTip": "CurrencyApi.Domain\\Models\\Currency.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T06:40:32.356Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExchangeRate.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\ExchangeRate.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Models\\ExchangeRate.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\ExchangeRate.cs",
+              "RelativeToolTip": "CurrencyApi.Domain\\Models\\ExchangeRate.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:19:57.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrencyEntity.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
+              "RelativeToolTip": "CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:36:49.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExchangeRateEntity.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
+              "RelativeToolTip": "CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:34:44.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExchangeRateController.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\ExchangeRateController.cs",
+              "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\ExchangeRateController.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\ExchangeRateController.cs",
+              "RelativeToolTip": "CurrencyApi\\Controllers\\ExchangeRateController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T06:51:38.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IExchangeRateService.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
+              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:23:18.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IExchangeRateRepository.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
+              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:22:48.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExchangeRateService.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
+              "RelativeDocumentMoniker": "CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
+              "RelativeToolTip": "CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:23:05.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CurrencyService.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\Sercvices\\CurrencyService.cs",
               "RelativeDocumentMoniker": "CurrecyApi.Application\\Sercvices\\CurrencyService.cs",
@@ -95,33 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CurrencyController.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\CurrencyController.cs",
-              "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\CurrencyController.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\CurrencyController.cs",
-              "RelativeToolTip": "CurrencyApi\\Controllers\\CurrencyController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAuwBEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:16:50.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICurrencyService.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
-              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T07:00:45.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ICurrencyRepository.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
               "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
@@ -129,24 +211,35 @@
               "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\ICurrencyRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T06:59:54.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T06:59:54.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExchangeRateService.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
-              "RelativeDocumentMoniker": "CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
-              "RelativeToolTip": "CurrecyApi.Application\\Sercvices\\ExchangeRateService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ICurrencyService.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
+              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
+              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\ICurrencyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:23:05.422Z"
+              "WhenOpened": "2024-08-30T07:00:45.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "CurrencyController.cs",
+              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\CurrencyController.cs",
+              "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\CurrencyController.cs",
+              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\CurrencyController.cs",
+              "RelativeToolTip": "CurrencyApi\\Controllers\\CurrencyController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:16:50.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ExchangeRateRepository.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Repositories\\ExchangeRateRepository.cs",
               "RelativeDocumentMoniker": "CurrencyApi.Data\\Repositories\\ExchangeRateRepository.cs",
@@ -154,48 +247,11 @@
               "RelativeToolTip": "CurrencyApi.Data\\Repositories\\ExchangeRateRepository.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAkwIsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:20:29.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T15:20:29.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExchangeRate.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\ExchangeRate.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Models\\ExchangeRate.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Models\\ExchangeRate.cs",
-              "RelativeToolTip": "CurrencyApi.Domain\\Models\\ExchangeRate.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:19:57.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExchangeRateController.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\ExchangeRateController.cs",
-              "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\ExchangeRateController.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\ExchangeRateController.cs",
-              "RelativeToolTip": "CurrencyApi\\Controllers\\ExchangeRateController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAkwEoAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T06:51:38.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IExchangeRateService.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
-              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\IExchangeRateService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABrAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:23:18.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "ExchangeResponse.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\Contracts\\ExchangeResponse.cs",
               "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\Contracts\\ExchangeResponse.cs",
@@ -207,19 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IExchangeRateRepository.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
-              "RelativeToolTip": "CurrencyApi.Domain\\Abstractions\\IExchangeRateRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:22:48.794Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ExchangeRateResponse.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\Contracts\\ExchangeRateResponse.cs",
               "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\Contracts\\ExchangeRateResponse.cs",
@@ -231,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CurrencyResponse.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\Contracts\\CurrencyResponse.cs",
               "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\Contracts\\CurrencyResponse.cs",
@@ -243,31 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ExchangeRateEntity.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\Entities\\ExchangeRateEntity.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:34:44.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CurrencyEntity.cs",
-              "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
-              "RelativeDocumentMoniker": "CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
-              "ToolTip": "D:\\dev Files\\CurrencyApi\\CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
-              "RelativeToolTip": "CurrencyApi.Data\\Entities\\CurrencyEntity.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:36:49.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CurrencyRequest.cs",
               "DocumentMoniker": "D:\\dev Files\\CurrencyApi\\CurrencyApi\\Controllers\\Contracts\\CurrencyRequest.cs",
               "RelativeDocumentMoniker": "CurrencyApi\\Controllers\\Contracts\\CurrencyRequest.cs",
