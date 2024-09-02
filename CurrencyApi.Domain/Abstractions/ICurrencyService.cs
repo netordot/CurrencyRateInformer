@@ -10,7 +10,6 @@ namespace CurrecyApi.Application.Sercvices
         Task<Guid> Update(Guid id, string code, string fullname, string sign);
         Task<Currency> GetByCode(string code);
         Task<Guid> GetIdByCodeAsync(string Code);
-
         Task<string> GetCurrencyCodeById(Guid Id);
 
     }

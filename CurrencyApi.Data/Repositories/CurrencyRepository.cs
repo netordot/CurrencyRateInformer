@@ -9,10 +9,12 @@ using System.Threading.Tasks;
 
 namespace CurrencyApi.Data.Repositories
 {
+    /// <summary>
+    /// Класс содержит реализацию CRUD операций над сущностью Currency + несколько вспомогательных методов
+    /// </summary>
     public class CurrencyRepository : ICurrencyRepository
     {
         private ApplicationDataContext _context;
-
         public CurrencyRepository(ApplicationDataContext context)
         {
             _context = context;
@@ -41,7 +43,6 @@ namespace CurrencyApi.Data.Repositories
             };
 
             await _context.Currencies.AddAsync(currencyEntity);
-
             await _context.SaveChangesAsync();
 
             return currencyEntity.Id;
@@ -60,7 +61,6 @@ namespace CurrencyApi.Data.Repositories
             await _context.SaveChangesAsync();
 
             return id;
-
         }
 
         public async Task<Guid> Delete(Guid id)
@@ -75,22 +75,18 @@ namespace CurrencyApi.Data.Repositories
             return id;
         }
 
-
-       // На данном этапе метод реализован криво, в дальнейшем будет рефакторинг
-
        public async Task<Currency> GetCurrencyByCode(string Code)
         {
-
-            
             var currencyDb = await _context.Currencies.FirstOrDefaultAsync(x => x.Code == Code);
+
+            if (currencyDb == null)
+            {
+                throw new Exception("Валюта не найдена!");
+            }
 
             var currencyToReturn = Currency.Create(currencyDb.Id, currencyDb.Code, currencyDb.FullName, currencyDb.Sign).currency;
 
             return currencyToReturn;
-
-
-
-
         }
 
         public async Task<Guid> GetCurrencyIdByCode(string code)
@@ -104,19 +100,15 @@ namespace CurrencyApi.Data.Repositories
 
             return currency.Id;
         }
-
-        public async Task<Currency> GetCurrencyAsync(string Code)
-        {
-            var currencyDb = await _context.Currencies.FirstOrDefaultAsync(x => x.Code == Code);
-
-            var currencyToReturn = Currency.Create(currencyDb.Id, currencyDb.Code, currencyDb.FullName, currencyDb.Sign).currency;
-
-            return currencyToReturn;
-        }
         
         public async Task<string> GetCodeById(Guid Id)
         {
             var currencyInDb = await _context.Currencies.FirstOrDefaultAsync(x => x.Id == Id);
+
+            if (currencyInDb == null)
+            {
+                throw new Exception("Валюта не найдена!");
+            }
 
             return currencyInDb.Code;
         }
